@@ -1,0 +1,19 @@
+/* src/main.css */
+
+/* Importuj czcionkę przed Tailwind */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Bebas Neue', serif;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: 0.2em; /* Dodaj odstęp między literami tutaj */
+}
